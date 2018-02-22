@@ -1,0 +1,198 @@
+@charset "UTF-8";
+body{
+
+   background:url(../img/huellas.jpg);
+   background-repeat: repeat;
+}
+
+.principal{
+   width: 30%;
+   border: 10px double black;
+   margin: 10px auto;
+   padding: 10px;
+   padding-bottom:0;
+   background: linear-gradient(#F5F5DC,	#A9A9A9)
+}
+ 
+.top{
+   padding: 10px;
+   border: 2px solid gray;
+   background-image: url("../img/background.jpg");
+   background-repeat: repeat;
+   border-radius: 10px;
+}
+
+.title{
+
+ 	 font-family: Helvetica, Arial, san-serif;
+   margin: 0 auto;
+   background: linear-gradient(black,grey);
+   border-radius: 4px;
+   color: white;
+   text-align: center;
+}
+
+ .title:hover{
+
+ 	 background: linear-gradient(grey,black);
+}
+
+#image_animal{
+
+   max-width: 300px;
+   margin: 10px auto;
+   display: block;
+   border-radius: 10px;
+   opacity: 0.9s;
+     
+}
+
+.interesting{
+
+   margin:5px auto;
+   border: 2px solid grey;
+   background: linear-gradient(#FAFAD2,#CD853F);
+   text-align: justify;
+   border-radius: 5px;
+}
+
+.interesting:hover{
+
+   background: linear-gradient(#CD853F,#FAFAD2);
+
+}
+
+#curiosity{
+
+   margin:8px;
+
+}
+ 
+#light{
+
+   width: 50px;
+   float: left;
+
+}
+
+.grew{
+   
+   width: 480px;
+   margin:0 auto;
+
+}
+
+.grew .lines{
+    
+   display: inline-block;
+   border: 1px solid grey;
+   margin: 0 4px;
+   background: white;
+
+}
+
+.golden{
+
+ 	 max-width: 75px;
+ 	 padding: 3px;
+ 	 opacity: 0.4;
+   display: inline-block;
+
+}
+
+.golden:hover{
+   
+   opacity: 1;
+   -webkit-box-shadow: 11px 11px 34px 3px rgba(0,0,0,0.75);
+   -moz-box-shadow: 11px 11px 34px 3px rgba(0,0,0,0.75);
+   box-shadow: 11px 11px 34px 3px rgba(0,0,0,0.75);
+}
+
+.information_title{
+  
+   margin-top: 5px;
+   border: 1px solid grey;
+   background: linear-gradient(#8B4513,white);
+   text-align:center;
+   border-radius: 10px;
+}
+
+.information_title:hover{
+
+   background: linear-gradient(white,#8B4513);
+}
+
+.list{
+
+   margin-top: 0;
+   list-style-type: none;
+   list-style-position: outside;
+   padding: 6px;
+}
+
+.info{
+
+   margin:2px;
+   background: linear-gradient(#FAFAD2,#CD853F);
+   border-radius: 5px;
+   border: 1px solid gray;
+}
+
+.info:hover{
+
+  background: linear-gradient(#CD853F,#FAFAD2);
+}
+
+.fix{
+
+   margin-top: 5px;
+}
+
+.shadow{
+
+   -webkit-box-shadow: 11px 11px 34px 3px rgba(0,0,0,0.75);
+   -moz-box-shadow: 11px 11px 34px 3px rgba(0,0,0,0.75);
+    box-shadow: 11px 11px 34px 3px rgba(0,0,0,0.75);
+}
+  
+.footer{
+  
+   background: black;
+   border-radius:10px;
+   padding-top: 3px;
+   color: white;
+   text-align: center;
+   margin-top: 5px;
+   -webkit-box-shadow: 4px 4px 24px 2px rgba(255,255,255,1);
+   -moz-box-shadow: 4px 4px 24px 2px rgba(255,255,255,1);
+   box-shadow: 4px 4px 24px 2px rgba(255,255,255,1);
+}
+
+.footer:hover{
+  
+   background: rgba(0,0,0,0.6);
+}
+
+#flag_co{
+   
+   max-width: 20px;
+
+}
+
+.dates{
+   margin-top:0px;
+   margin-bottom: 0;
+   margin-left: 20px;
+
+}
+
+h2 .material-icons{
+
+   font-size: 36px;
+}
+
+h3 .material-icons{
+
+   font-size: 20px;
+
+}
